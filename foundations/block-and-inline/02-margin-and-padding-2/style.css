@@ -1,3 +1,10 @@
+/* - The content section has 16px space on the top and bottom, and 8px on either side.
+- Everything inside the `.button-container` section is centered, and there is 8px padding.
+- The Big Button is centered on its own line.
+- The Big Button has 24px space on the sides, and 8px on top and bottom.
+*/
+
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -6,22 +13,32 @@ body {
 .card {
   width: 400px;
   background: #fff;
-  margin: 16px auto;
+  margin: 8px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 8px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 16px 8px 16px 8px;
+  margin-bottom: 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 24px 8px 24px 8px;
+  margin: 0 auto;
 }
